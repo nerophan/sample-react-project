@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/sample-react-project/static/css/main.d1357bc8.chunk.css",
+    "main.js": "/sample-react-project/static/js/main.abe59502.chunk.js",
+    "main.js.map": "/sample-react-project/static/js/main.abe59502.chunk.js.map",
+    "runtime-main.js": "/sample-react-project/static/js/runtime-main.80946ed2.js",
+    "runtime-main.js.map": "/sample-react-project/static/js/runtime-main.80946ed2.js.map",
+    "static/js/2.0f7441f5.chunk.js": "/sample-react-project/static/js/2.0f7441f5.chunk.js",
+    "static/js/2.0f7441f5.chunk.js.map": "/sample-react-project/static/js/2.0f7441f5.chunk.js.map",
+    "index.html": "/sample-react-project/index.html",
+    "precache-manifest.a1a6b34f229d54b1553a87f31f36366c.js": "/sample-react-project/precache-manifest.a1a6b34f229d54b1553a87f31f36366c.js",
+    "service-worker.js": "/sample-react-project/service-worker.js",
+    "static/css/main.d1357bc8.chunk.css.map": "/sample-react-project/static/css/main.d1357bc8.chunk.css.map",
+    "static/js/2.0f7441f5.chunk.js.LICENSE.txt": "/sample-react-project/static/js/2.0f7441f5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/sample-react-project/static/media/Poppins-Regular.41e8dead.ttf",
+    "static/media/android.svg": "/sample-react-project/static/media/android.21a8a343.svg",
+    "static/media/facebook.svg": "/sample-react-project/static/media/facebook.e6985ffa.svg",
+    "static/media/instagram.svg": "/sample-react-project/static/media/instagram.eaafb39e.svg",
+    "static/media/ios.svg": "/sample-react-project/static/media/ios.a345d8c0.svg",
+    "static/media/linkedin.svg": "/sample-react-project/static/media/linkedin.bfc442cd.svg",
+    "static/media/logo.svg": "/sample-react-project/static/media/logo.5d5d9eef.svg",
+    "static/media/mastercard.svg": "/sample-react-project/static/media/mastercard.5f1e64b0.svg",
+    "static/media/noun_avatar.svg": "/sample-react-project/static/media/noun_avatar.b4a60842.svg",
+    "static/media/noun_cart.svg": "/sample-react-project/static/media/noun_cart.1b56e07f.svg",
+    "static/media/paypal.svg": "/sample-react-project/static/media/paypal.a8fcd56f.svg",
+    "static/media/search.svg": "/sample-react-project/static/media/search.351fdc27.svg",
+    "static/media/shopping-bag.svg": "/sample-react-project/static/media/shopping-bag.408dbb94.svg",
+    "static/media/subscription-background.png": "/sample-react-project/static/media/subscription-background.484d48b5.png",
+    "static/media/twitter.svg": "/sample-react-project/static/media/twitter.a175566b.svg",
+    "static/media/visa.svg": "/sample-react-project/static/media/visa.0069e5c7.svg",
+    "static/media/youtube.svg": "/sample-react-project/static/media/youtube.e649788d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80946ed2.js",
+    "static/js/2.0f7441f5.chunk.js",
+    "static/css/main.d1357bc8.chunk.css",
+    "static/js/main.abe59502.chunk.js"
+  ]
+}
