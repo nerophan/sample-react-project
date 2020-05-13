@@ -1,0 +1,30 @@
+.subscription {
+  margin: 171px 0 63px 0;
+  padding: 42px 344px 42px 389px;
+  background-image: url(./images/subscription-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  p {
+    font-size: 26px;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin: 0;
+  }
+
+  .subscription-form {
+    display: flex;
+    height: 48px;
+    margin-top: 36px;
+
+    .input-group {
+      flex: 3;
+    }
+    .button {
+      flex: 1;
+      height: 100%;
+      align-items: center;
+      font-size: 13px;
+    }
+  }
+}

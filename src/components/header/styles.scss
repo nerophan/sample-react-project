@@ -1,0 +1,16 @@
+.header {
+  padding-top: 43px;
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: flex-end;
+
+  .header-item {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 25px;
+      margin-left: 43px;
+    }
+  }
+}

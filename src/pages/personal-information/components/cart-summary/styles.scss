@@ -1,0 +1,40 @@
+.cart-summary {
+  background-color: #F7F7F7;
+  padding: 12px 21px 25px 21px;
+  margin-left: 121px;
+  height: 100%;
+  border-radius: 15px;
+
+  h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .cart-summary-fee {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0;
+
+    span {
+      font-size: 17px;
+    }
+  }
+
+  .cart-summary-fee-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px 0 36px 0;
+
+    .fee-title {
+      font-size: 19px;
+      font-weight: 600;
+    }
+
+    .fee-amount {
+      font-size: 24px;
+      font-weight: 600;
+      color: #5FA01B;
+    }
+  }
+}

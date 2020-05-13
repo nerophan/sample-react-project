@@ -1,0 +1,13 @@
+.button {
+  border-radius: 50px;
+  width: 100%;
+  padding: 17px 0;
+  font-size: 17px;
+  font-weight: 600;
+
+  &.success {
+    background-color: #5FA01B;
+    color: #FFFFFF;
+    border: none;
+  }
+}

@@ -1,0 +1,13 @@
+.personal-information-page {
+  .content {
+    display: flex;
+
+    .personal-information-form {
+      flex: 2;
+    }
+
+    .cart-summary {
+      flex: 1
+    }
+  }
+}

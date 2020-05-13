@@ -1,0 +1,31 @@
+.navigator {
+  padding: 20px 0;
+  position: relative;
+
+  .navigator-background {
+    $parent-padding: 123px;
+
+    background-color: #F7F7F7;
+    position: absolute;
+    top: 0;
+    left: -$parent-padding;
+    width: calc(100% + #{$parent-padding * 2});
+    height: 100%;
+    z-index: -1;
+  }
+
+  .navigator-content {
+    display: flex;
+
+    .navigator-pages {
+      a {
+        margin-right: 34px;
+        font-size: 15px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        color: #5FA01B;
+        text-decoration: none;
+      }
+    }
+  }
+}
