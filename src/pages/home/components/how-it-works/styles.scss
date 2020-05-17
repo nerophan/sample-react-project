@@ -1,0 +1,39 @@
+.hik {
+  background-color: #EFF5E7;
+  padding: 43px 156px 73px;
+
+  h3 {
+    margin: 0 0 45px 0;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+  }
+
+  .hik-list {
+    display: flex;
+    justify-content: space-around;
+
+    .hik-item {
+      flex: 1;
+      max-width: 197px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .item-icon {
+        background-color: #fff;
+        border-radius: 100%;
+        width: 127px;
+        height: 127px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h4 {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 500;
+      }
+    }
+  }
+}

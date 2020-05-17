@@ -8,10 +8,10 @@ import {
 } from 'react-router-dom';
 
 import Header from './components/header'
-import Navigator from './components/navigator'
 import Subscription from './components/subscription'
 import Footer from './components/footer'
 
+import Home from './pages/home'
 import PersonalInformation from './pages/personal-information'
 
 function App() {
@@ -19,12 +19,13 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Navigator />
         <Switch>
-          <Route path="/">
+          <Route path="/personal-information">
             <PersonalInformation />
           </Route>
-          {/* Add more routes here */}
+          <Route path="/">
+            <Home />
+          </Route>
         </Switch>
         <Subscription />
         <Footer />

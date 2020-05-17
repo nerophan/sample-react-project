@@ -1,0 +1,31 @@
+.input-style-1 {
+  width: 100%;
+
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #00000026;
+    padding: 0 5px 12px 5px;
+    background-color: transparent;
+    font-size: 15px;
+  }
+
+  $placeholder-color: #43425D;
+
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $placeholder-color;
+    opacity: 1;
+    /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $placeholder-color;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: $placeholder-color;
+  }
+}

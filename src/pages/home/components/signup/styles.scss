@@ -1,0 +1,89 @@
+.home-page-signup {
+  display: flex;
+  height: 697px;
+  position: relative;
+
+  @mixin background {
+    $parent-padding: 123px;
+
+    position: absolute;
+    top: 0;
+    left: -$parent-padding;
+    width: calc(100% + #{$parent-padding * 2});
+    height: 100%;
+    z-index: -1;
+  }
+
+  .home-page-signup-background {
+    background-image: url(./images/16614.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include background;
+  }
+
+  .home-page-signup-shadow {
+    @include background;
+    background-image: linear-gradient(to right, #000, #f000);
+    opacity: 0.59;
+  }
+
+  .left-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      color: #fff;
+      font-size: 55px;
+      font-weight: bold;
+    }
+
+    .button-list {
+      display: flex;
+
+      button {
+        width: 188px;
+        margin-right: 17px;
+        border: none;
+      }
+    }
+  }
+
+  .right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    .form-panel {
+      border: 1px solid #707070;
+      background-color: #FFFFFFA8;
+      padding: 0 44px 26px 44px;
+      border-radius: 15px;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(20px);
+      width: 448px;
+
+      h2 {
+        font-size: 28px;
+        font-weight: 600;
+      }
+
+      .form-row {
+        margin-bottom: 39px;
+        display: flex;
+
+        div:not(:last-child) {
+          margin-right: 24px;
+        }
+
+        &.submit {
+          width: 50%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

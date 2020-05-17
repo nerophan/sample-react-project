@@ -1,0 +1,36 @@
+.intro-item-layout {
+  display: flex;
+  align-items: center;
+  margin-bottom: 122px;
+
+  .intro-text {
+    flex: 1;
+
+    h3 {
+      font-size: 37px;
+      font-weight: 600;
+      margin: 0 0 18px 0;
+    }
+
+    p {
+      font-size: 17px;
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+
+  .intro-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &.revert {
+    flex-direction: row-reverse;
+
+    .intro-img {
+      justify-content: flex-start;
+    }
+
+  }
+}

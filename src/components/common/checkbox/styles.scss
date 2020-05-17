@@ -1,0 +1,35 @@
+.input-group {
+  &.checkbox {
+    $size: 1.25rem;
+
+    padding-left: $size;
+
+    input[type=checkbox],
+    input[type=radio] {
+      box-sizing: border-box;
+      padding: 0;
+
+      position: absolute;
+      margin-top: .35rem;
+      margin-left: -$size;
+
+      -ms-transform: scale(2);
+      /* IE */
+      -moz-transform: scale(2);
+      /* FF */
+      -webkit-transform: scale(2);
+      /* Safari and Chrome */
+      -o-transform: scale(2);
+      /* Opera */
+      transform: scale(2);
+      padding: 10px;
+      max-width: 18px;
+    }
+
+    label {
+      margin-left: 15px;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}
