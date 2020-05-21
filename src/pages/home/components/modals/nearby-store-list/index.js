@@ -40,7 +40,7 @@ const NearbyStoreList = () => {
           hasMore={true}
           next={loadMore}
           loader={<h4>Loading...</h4>}
-          height={300}
+          height={368}
         >
           {fakeStoreListState && fakeStoreListState.map((store, i) => {
             return <NearbyStore store={store} key={i} />

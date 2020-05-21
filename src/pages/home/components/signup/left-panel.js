@@ -16,9 +16,9 @@ const HomeSignupLeftPanel = () => {
       <Modal
         isOpen={openModal}
         onClose={() => setOpenModal(false)}
-        styles={{
-          maxHeight: '83vh',
-        }}
+        // styles={{
+        //   maxHeight: '83vh',
+        // }}
       >
         <NearbyStoreList />
       </Modal>
