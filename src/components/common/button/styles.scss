@@ -1,14 +1,26 @@
+$success-color: #5FA01B;
+
 .button {
   border-radius: 50px;
   width: 100%;
   padding: 17px 0;
   font-size: 17px;
   font-weight: 600;
-  color: #5FA01B;
+  color: $success-color;
+
+  &:hover {
+    cursor: pointer;
+  }
 
   &.success {
-    background-color: #5FA01B;
+    background-color: $success-color;
     color: #FFFFFF;
     border: none;
+  }
+
+  &.no-bg {
+    border: 1.5px solid $success-color;
+    background-color: transparent;
+    color: $success-color;
   }
 }

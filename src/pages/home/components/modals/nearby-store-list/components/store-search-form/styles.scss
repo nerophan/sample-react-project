@@ -1,0 +1,24 @@
+.store-search-form {
+  position: relative;
+  width: 20.3rem;
+
+  $button-width: 94px;
+
+  .input-group {
+    margin-right: 0;
+
+    input {
+      background-color: #EDF1F4;
+      padding-right: $button-width + 5px;
+    }
+  }
+
+  button {
+    width: $button-width;
+    height: 48px;
+    font-size: 13px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

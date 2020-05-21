@@ -1,7 +1,6 @@
 import React from 'react'
 
 import './styles.scss'
-import BackgroundImage from './images/subscription-background.png'
 
 import InputGroup from '../common/input-group'
 import Button from '../common/button'

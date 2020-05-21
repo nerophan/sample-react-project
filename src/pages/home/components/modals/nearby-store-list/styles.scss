@@ -1,0 +1,37 @@
+.nearby-store-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 32px 0 14px;
+  }
+
+  .store-search-form {
+    margin-bottom: 32px;
+  }
+
+  .nearby-store-list {
+    .infinite-scroll-component {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 0 4.6rem 0;
+    }
+  }
+
+  .all-store-btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 6.625rem;
+
+    button {
+      font-size: 13px;
+      font-weight: 600;
+      height: 45px;
+      padding-top: 13px;
+    }
+  }
+}
